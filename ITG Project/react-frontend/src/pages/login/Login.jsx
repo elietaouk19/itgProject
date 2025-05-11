@@ -18,6 +18,7 @@ const Login = () => {
 
   useEffect(() => {
     localStorage.removeItem("token");
+    updateToken(null);
   }, []);
 
   

@@ -53,8 +53,7 @@ export const AxiosProvider = ({ children }) => {
         setTimeout(() => {
             setLoading(false);
         }, 500);
-        console.log("response.data.message>>>",response);
-                console.log("isAlert>>>",isAlert);
+   
 
       if(isAlert){
         toast.success(response.data.message, {
