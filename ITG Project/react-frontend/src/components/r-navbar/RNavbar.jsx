@@ -6,7 +6,7 @@ const RNavbar = ({
   navData = [],
 }) => {
   return (
-    <nav className="bg-[#008080] text-white  shadow-md">
+    <nav className="bg-red-600 text-white  shadow-md">
       <div className="container flex justify-between items-center">
         <img 
           src="/src/assets/itgLogoNoBackgroud.png" 

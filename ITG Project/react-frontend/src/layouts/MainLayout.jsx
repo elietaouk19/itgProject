@@ -9,7 +9,7 @@ const MainLayout = () => {
   ];
 
   return (
-    <div className="w-full h-screen bg-[#008080] text-white flex flex-col overflow-hidden">
+    <div className="w-full h-screen bg-red-600 text-white flex flex-col overflow-hidden">
       <RNavbar navData={navData} />
 
       <main className="flex-grow overflow-auto">
